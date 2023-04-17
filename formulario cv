@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario de CV</title>
+</head>
+<body>
+	<h1>Formulario de CV</h1>
+	<form>
+		<label for="nombre">Nombre y Apellidos:</label>
+		<input type="text" id="nombre" name="nombre"><br>
+
+		<label for="fecha-nac">Fecha de Nacimiento:</label>
+        <input type="date" id="fecha-nac" name="fecha-nac"><br>
+
+		<label for="ocupacion">Ocupación:</label>
+		<input type="text" id="ocupacion" name="ocupacion"><br>
+
+		<label for="contacto">Contacto (telefono, email):</label>
+		<input type="text" id="contacto" name="contacto"><br>
+
+		<label for="nacionalidad">Nacionalidad:</label>
+		<select id="nacionalidad" name="nacionalidad">
+            <option value="Perú">Perú</option>
+			<option value="Argentina">Argentina</option>
+			<option value="México">México</option>
+			<option value="España">España</option>
+		</select><br>
+
+		<label for="ingles">Nivel de inglés:</label><br>
+		<input type="radio" id="Básico" name="ingles" value="Básico">
+		<label for="Básico">Básico</label><br>
+		<input type="radio" id="Intermedio" name="ingles" value="Intermedio">
+		<label for="Intermedio">Intermedio</label><br>
+		<input type="radio" id="Avanzado" name="ingles" value="Avanzado">
+		<label for="Avanzado">Avanzado</label><br>
+		<input type="radio" id="Fluido" name="ingles" value="Fluido">
+		<label for="Fluido">Fluido</label><br>
+
+		<label for="lenguajes">Lenguajes de programación:</label><br>
+		<select id="lenguajes" name="lenguajes" multiple>
+			<option value="JavaScript">JavaScript</option>
+			<option value="Python">Python</option>
+			<option value="Java">Java</option>
+			<option value="C++">C++</option>
+		</select><br>
+
+		<label for="aptitudes">Aptitudes:</label>
+		<input type="text" id="aptitudes" name="aptitudes" list="lista-aptitudes"><br>
+		<datalist id="lista-aptitudes">
+			<option value="Trabajo en equipo">
+			<option value="Comunicación efectiva">
+			<option value="Resolución de problemas">
+			<option value="Creatividad">
+			<option value="Organización">
+		</datalist>
+
+		<label for="habilidades">Habilidades:</label><br>
+		<input type="checkbox" id="habilidad1" name="habilidades" value="liderazgo">
+		<label for="habilidad1">Liderazgo</label><br>
+		<input type="checkbox" id="habilidad2" name="habilidades" value="resolucion-problemas">
+		<label for="habilidad2">Resolución de problemas</label><br>
+		<input type="checkbox" id="habilidad3" name="habilidades" value="creatividad">
+        <label for="habilidad3">Creatividad</label><br>
+        <input type="checkbox" id="habilidad4" name="habilidades" value="trabajo-equipo">
+        <label for="habilidad4">Trabajo en equipo</label><br>
+        <input type="checkbox" id="habilidad5" name="habilidades" value="adaptabilidad">
+        <label for="habilidad5">Adaptabilidad</label><br>
+        <input type="checkbox" id="habilidad6" name="habilidades" value="comunicacion">
+        <label for="habilidad6">Comunicación</label><br>
+        <input type="checkbox" id="habilidad7" name="habilidades" value="gestion-tiempo">
+        <label for="habilidad7">Gestión del tiempo</label><br>
+        <textarea id="perfil" name="perfil" rows="4" cols="50" placeholder="Escribe aquí tu perfil profesional..."></textarea><br>
+        <input type="submit" value="Enviar">
+    </form> 
+</body>
+</html>
