@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mi Curriculum Vitae</title>
+  </head>
+  <body>
+    <h1>Mi Curriculum Vitae</h1>
+    <h2>CONTACTO</h2>
+    <ul>
+      <li>Nombre: José Martínez</li>
+      <li>Dirección: México DF</li>
+      <li>Teléfono: 999 999 999</li>
+      <li>Email: jose.martinez@gnail.com</li>
+    </ul>
+
+    <h2>Perfil</h2>
+    <ul>
+      <li>Trabajador Social con 4 años de experiencia en proyectos
+          colectivos. Mi objetivo es lograr que los jóvenes obtengan acceso
+          a la educación superior mediante logros deportivos </li> 
+    </ul>
+
+    <h2>IDIOMAS</h2>
+    <ul>
+      <li>Español: Nativo</li>
+      <li>Ingles: Bilingue (TOEIC 950)</li>
+      <li>Francés: Intermedio (B2)</li>
+    </ul>
+
+    <h2>FORMACIÓN</h2>
+    <ul>
+      <li>Licenciatura en Informática - Universidad de la Frontera, México DF (2011-2012)</li>
+      <li>Grado de Trabajo Social - ESMA, Madrid (2012-2015)</li>
+    </ul>
+
+    <h2>EXPERIENCIA LABORAL</h2>
+    <ul>
+      <li>Trabajador Social - México DF (2022-actualmente)</li>
+      <li>Trabajador Social - México DF (2020-2022)</li>
+      <li>Trabajador Social (Practicas) - Zaragoza España (2019-2020)</li>
+    </ul>
+
+    <h2>APTITUDES</h2>
+    <ul>
+        <li>Inteligencia Emocional</li>
+        <li>Espíritu crítico</li>
+        <li>Trabajo en equipo</li>
+        <li>Capacidad analítica</li>
+        <li>Habilidades físicas</li>
+    </ul>
+    
+    <h2>HABILIDADES</h2>
+    <ul>
+      <li>Acondicionamiento Físico</li>
+      <li>Creación video deportivos</li>
+      <li>Pack Office</li>
+      <li>Tenis</li>
+    </ul>
+
+    <h2>OTROS INTERESES</h2>
+    <ul>
+      <li>Creador de yincanas</li>
+      <li>Paseos ecológicos grupales</li>
+      <li>Lectura grupal en inglés</li>
+    </ul>
+  </body>
+</html>
